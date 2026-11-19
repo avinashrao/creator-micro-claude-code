@@ -1,0 +1,485 @@
+{
+  "keyboard": "creator_micro_v2",
+  "language": "us",
+  "layer": {
+    "id": 0,
+    "os": 0,
+    "name": "Claude Code",
+    "color": "#FF0000",
+    "layout": {
+      "base": [
+        [
+          {
+            "keycode": "KV_OAI_AG14"
+          },
+          {
+            "keycode": "KV_OAI_AG15"
+          }
+        ],
+        [
+          {
+            "keycode": "KV_OAI_AG16"
+          },
+          {
+            "keycode": "KV_OAI_AG17"
+          },
+          {
+            "keycode": "KV_OAI_AG18"
+          },
+          {
+            "keycode": "KV_OAI_AG19"
+          }
+        ],
+        [
+          {
+            "keycode": "KA_0"
+          },
+          {
+            "keycode": "KA_1"
+          },
+          {
+            "keycode": "KC_ESC"
+          },
+          {
+            "keycode": "KA_2"
+          }
+        ],
+        [
+          {
+            "keycode": "KA_3"
+          },
+          {
+            "keycode": "KC_NONE"
+          },
+          {
+            "keycode": "KC_ENT"
+          }
+        ]
+      ],
+      "encoders": [
+        [
+          {
+            "keycode": "KA_10"
+          },
+          {
+            "keycode": "KA_9"
+          },
+          {
+            "keycode": "KM_0"
+          }
+        ]
+      ],
+      "joystick": {
+        "type": "RADIAL",
+        "sectors": [
+          {
+            "a1": 0.875,
+            "a2": 0.125,
+            "k": "KA_6"
+          },
+          {
+            "a1": 0.125,
+            "a2": 0.375,
+            "k": "KA_8"
+          },
+          {
+            "a1": 0.375,
+            "a2": 0.625,
+            "k": "KA_7"
+          },
+          {
+            "a1": 0.625,
+            "a2": 0.875,
+            "k": "KA_5"
+          }
+        ]
+      }
+    },
+    "lights": {
+      "backlight": {
+        "effect": "solid",
+        "brightness": 1,
+        "speed": 0.5,
+        "magic": 1,
+        "color": 16777215
+      },
+      "underglow": {
+        "effect": "rainbow",
+        "brightness": 1,
+        "speed": 0.55,
+        "magic": 1,
+        "color": 16777215
+      }
+    }
+  },
+  "actions": [
+    {
+      "id": 0,
+      "name": "Claude • Fast mode",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LALT",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_F",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LALT",
+          "delay": 14,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Claude • Allow once",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_ENT",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Claude • Fork session",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LALT",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_O",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LALT",
+          "delay": 14,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Claude • Dictation",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_D",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Claude • Effort",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_E",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Claude • Permission modes",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_M",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Claude • Forward",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_RBRC",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Claude • Back",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LBRC",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Claude • Sidebar",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_B",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Claude • Decrease effort",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_E",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 200,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_UP",
+          "delay": 100,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_SPC",
+          "delay": 70,
+          "actionType": 2
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Claude • Increase effort",
+      "keyInputs": [
+        {
+          "keycode": "KC_LGUI",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 1
+        },
+        {
+          "keycode": "KC_E",
+          "delay": 14,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_LSFT",
+          "delay": 14,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_LGUI",
+          "delay": 200,
+          "actionType": 0
+        },
+        {
+          "keycode": "KC_DOWN",
+          "delay": 100,
+          "actionType": 2
+        },
+        {
+          "keycode": "KC_SPC",
+          "delay": 70,
+          "actionType": 2
+        }
+      ]
+    }
+  ],
+  "multiactions": [
+    {
+      "id": 0,
+      "name": "Claude • Hold for effort, tap to select",
+      "tappingTerms": 250,
+      "tap": {
+        "keycode": "KC_ENT",
+        "delay": 0,
+        "actionType": 1
+      },
+      "onHold": {
+        "keycode": "KA_4",
+        "delay": 0,
+        "actionType": 1
+      },
+      "doubleTap": {
+        "keycode": "KC_NONE",
+        "delay": 0,
+        "actionType": 1
+      },
+      "tapHold": {
+        "keycode": "KC_NONE",
+        "delay": 0,
+        "actionType": 1
+      }
+    }
+  ],
+  "smartActions": [],
+  "actionGroups": [
+    {
+      "id": 0,
+      "name": "Claude Code",
+      "actionIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "multiactionGroups": [
+    {
+      "id": 0,
+      "name": "Claude Code",
+      "actionIds": [
+        0
+      ]
+    }
+  ],
+  "smartActionGroups": []
+}
